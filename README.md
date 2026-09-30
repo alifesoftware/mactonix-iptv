@@ -15,7 +15,7 @@
 
 ## 🌟 Overview
 
-**Macnotix IPTV** is a pure native macOS IPTV player engineered from scratch in Swift and SwiftUI. It combines the format versatility of IPTV players with Apple's **Liquid Glass design language** (`.ultraThinMaterial`), sub-millisecond parsing, and hardware-accelerated playback.
+**Macnotix IPTV** is a native macOS IPTV, VOD, and Live Streaming application built with Swift and SwiftUI, inspired by and based on Linux Mint's open-source IPTV player [Hypnotix](https://github.com/linuxmint/hypnotix). It brings the versatile feature set and provider model of Hypnotix to macOS with Apple's **Liquid Glass design language** (`.ultraThinMaterial`), sub-millisecond parsing, and hardware-accelerated playback.
 
 ```
 +-------------------+-------------------------------------------+-----------------------------------------------+
@@ -221,6 +221,13 @@ Comprehensive engineering documents are located in [`docs/`](docs/):
 - **[03. Software Architecture & System Design](docs/03_software_architecture_and_design.md)**
 - **[04. Code Design & Best Patterns](docs/04_code_design_and_patterns.md)**
 - **[05. User Interface & Experience Design](docs/05_user_interface_design.md)**
+
+---
+
+## 🙏 Acknowledgements & Credits
+
+- **[Hypnotix by Linux Mint](https://github.com/linuxmint/hypnotix)**: Macnotix was created based on and inspired by the excellent open-source [Hypnotix](https://github.com/linuxmint/hypnotix) IPTV streaming application developed by Clement Lefebvre and the Linux Mint team. We give full credit to the Hypnotix project for its architecture, concepts, and user experience design that guided the creation of this native macOS client.
+- **[Free-TV / IPTV-Org](https://github.com/iptv-org/iptv)**: For public IPTV streams and channel playlists.
 
 ---
 
